@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title>瑾声</title>
-    <updated>2022-05-07T16:13:14.281Z</updated>
+    <updated>2022-05-07T16:15:57.028Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
-    <subtitle>&lt;font color=&quot;red&quot;&gt;九瑾谣的个人博客&lt;/font&gt;</subtitle>
+    <subtitle>九瑾谣的个人博客</subtitle>
     <logo>https://kyuux009.github.io/images/avatar.png</logo>
     <icon>https://kyuux009.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 瑾声</rights>
