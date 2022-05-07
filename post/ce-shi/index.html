@@ -8,7 +8,7 @@
 <meta name="keywords" content="Gridea静态个人博客">
 <meta name="description" content="九瑾谣的个人博客">
 <meta name="theme-color" content="#000">
-<title>Gridea 初体验 | 瑾声</title>
+<title>测试 | 瑾声</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1651944152494">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
@@ -41,8 +41,8 @@
 
 
 
-  <meta name="description" content="Gridea 初体验" />
-  <meta name="keywords" content="随记" />
+  <meta name="description" content="测试" />
+  <meta name="keywords" content="" />
 </head>
 
 <body>
@@ -206,8 +206,7 @@
       <div class="sidebar-body gemini" id="sidebar_body">
         
           
-            <div class="post-side-meta" id="post_side_meta">
-              
+            
 <div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
@@ -268,199 +267,6 @@
 
 
 </div>
-            </div>
-            <div class="post-toc sidebar-body-active" id="post_toc" style="opacity: 1;">
-              <div class="toc-box right-motion">
-  <div class="toc-wrapper  auto"
-    id="toc_wrapper">
-    <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#%E8%A1%A5%E8%AE%B0"><strong>补记</strong></a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-  </div>
-</div>
-
-<script>
-
-  let lastTop = 0, lList = [], hList = [], postBody, lastIndex = -1;
-  let active = 'active-show', activeClass = 'active-current';
-  let tocWrapper = document.querySelector('#toc_wrapper');
-  let tocContent = tocWrapper.children[0];
-  let autoNumber = tocWrapper && tocWrapper.classList.contains('auto-number');
-
-  function addTocNumber(elem, deep) {
-    if (!elem) {
-      return;
-    }
-    let prop = elem.__proto__;
-
-    if (prop === HTMLUListElement.prototype) {
-      for (let i = 0; i < elem.children.length; i++) {
-        addTocNumber(elem.children[i], deep + (i + 1) + '.');
-      }
-    } else if (prop === HTMLLIElement.prototype) {
-      // 保存li元素
-      if (elem.children[0] && elem.children[0].__proto__ === HTMLAnchorElement.prototype) {
-        lList.push(elem);
-      }
-      for (let i = 0; i < elem.children.length; i++) {
-        let cur = elem.children[i];
-        if (cur.__proto__ === HTMLAnchorElement.prototype) {
-          if (autoNumber) {
-            cur.text = deep + ' ' + cur.text;
-          }
-        } else if (cur.__proto__ === HTMLUListElement.prototype) {
-          addTocNumber(cur, deep);
-        }
-      }
-    }
-  }
-
-  function removeParentActiveClass() {
-    let parents = tocContent.querySelectorAll('.' + active)
-    parents.forEach(function (elem) {
-      elem.classList.remove(active);
-    });
-  }
-
-  function addActiveClass(index) {
-    if (index >= 0 && index < hList.length) {
-      lList[index].classList.add(activeClass);
-    }
-  }
-
-  function removeActiveClass(index) {
-    if (index >= 0 && index < hList.length) {
-      lList[index].classList.remove(activeClass);
-    }
-  }
-
-  function addActiveLiElemment(elem, parent) {
-    if (!elem || elem === parent) {
-      return;
-    } else {
-      if (elem.__proto__ === HTMLLIElement.prototype) {
-        elem.classList.add(active);
-      }
-      addActiveLiElemment(elem.parentElement, parent);
-    }
-  }
-
-  function showToc() {
-    if (tocWrapper) {
-      postBody = document.querySelector('#post_body');
-      for (let i = 0; i < postBody.children.length; i++) {
-        if (postBody.children[i].__proto__ === HTMLHeadingElement.prototype) {
-          hList.push(postBody.children[i]);
-        }
-      }
-      if (tocWrapper.classList.contains('compress')) {
-        tocContent.classList.add('closed');
-      } else if (tocWrapper.classList.contains('no_compress')) {
-        tocContent.classList.add('expanded');
-      } else {
-        if (hList.length > 10) {
-          active = 'active-hidden'
-          tocContent.classList.add('closed');
-        } else {
-          tocContent.classList.add('expanded');
-        }
-      }
-    }
-  }
-
-  (function () {
-    // 处理不是从#一级标题开始目录
-    if (tocContent.children.length === 1 && tocContent.children[0].__proto__ === HTMLLIElement.prototype) {
-      let con = tocContent.children[0].children[0];
-      tocContent.innerHTML = con.innerHTML;
-    }
-    let markdownItTOC = document.querySelector('.markdownIt-TOC');
-    let innerHeight = window.innerHeight;
-    markdownItTOC.style = `max-height: ${innerHeight - 80 > 0 ? innerHeight - 80 : innerHeight}px`
-    addTocNumber(tocContent, '');
-  })();
-
-  document.addEventListener('scroll', function (e) {
-    if (lList.length <= 0) {
-      return;
-    }
-    let scrollTop = document.scrollingElement.scrollTop + 10;
-    let dir;
-
-    if (lastTop - scrollTop > 0) {
-      dir = 'up';
-    } else {
-      dir = 'down';
-    }
-
-    lastTop = scrollTop;
-    if (scrollTop <= 0) {
-      if (lastIndex >= 0 && lastIndex < hList.length) {
-        lList[lastIndex].classList.remove(activeClass);
-      }
-      return;
-    }
-
-    let current = 0, hasFind = false;
-    for (let i = 0; i < hList.length; i++) {
-      if (hList[i].offsetTop > scrollTop) {
-        current = i;
-        hasFind = true;
-        break;
-      }
-    }
-    if (!hasFind && scrollTop > lList[lList.length - 1].offsetTop) {
-      current = hList.length - 1;
-    } else {
-      current--;
-    }
-    if (dir === 'down') {
-      if (current > lastIndex) {
-        addActiveClass(current);
-        removeActiveClass(lastIndex)
-        lastIndex = current;
-        removeParentActiveClass();
-        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
-      }
-    } else {
-      if (current < lastIndex) {
-        addActiveClass(current);
-        removeActiveClass(lastIndex);
-        lastIndex = current;
-        removeParentActiveClass();
-        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
-      }
-    }
-  });
-
-
-  window.addEventListener('load', function () {
-    showToc();
-    document.querySelector('#sidebar').style = 'display: block;';
-    tocWrapper.classList.add('toc-active');
-    setTimeout(function () {
-      if ("createEvent" in document) {
-        let evt = document.createEvent("HTMLEvents");
-        evt.initEvent("scroll", false, true);
-        document.dispatchEvent(evt);
-      }
-      else {
-        document.fireEvent("scroll");
-      }
-    }, 500)
-  })
-
-</script>
-            </div>
           
         
       </div>
@@ -548,32 +354,21 @@
           <div class="section bg-color post post-page">
             <section class="post-header">
   <h1 class="post-title">
-    <a class="post-title-link" href="https://kyuux009.github.io/post/gridea-chu-ti-yan/"> Gridea 初体验 </a>
+    <a class="post-title-link" href="https://kyuux009.github.io/post/ce-shi/"> 测试 </a>
   </h1>
   <div class="post-meta">
     
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span class="language" data-lan="publish">发布于</span>
-      <span class="publish-time" data-t="2022-05-07 08:55:49">2022-05-07</span>
+      <span class="publish-time" data-t="2022-05-08 01:20:45">2022-05-08</span>
       <span class="post-meta-divider pc-show">|</span>
     </span>
     
     <span class="meta-item">
-      <i class="fa fa-folder-o"></i>
-      <span class="pc-show language" data-lan="category-in">标签:</span>
-       
-      <a href="https://kyuux009.github.io/tag/suiji/">
-        <span>随记</span>
-      </a>
-       
-    </span>
-    <span class="post-meta-divider">|</span>
-    
-    <span class="meta-item">
       <i class="fa fa-clock-o"></i>
       <span
-        >4<span class="language" data-lan="minute"
+        >0<span class="language" data-lan="minute"
           >分钟</span
         ></span
       >
@@ -582,15 +377,15 @@
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
       <span
-        >950<span class="pc-show language" data-lan="words"
+        >0<span class="pc-show language" data-lan="words"
           >字数</span
         ></span
       >
     </span>
       
     <span
-      id="/post/gridea-chu-ti-yan/"
-      data-flag-title="Gridea 初体验"
+      id="/post/ce-shi/"
+      data-flag-title="测试"
       class="meta-item pc-show leancloud_visitors"
     >
       <span class="post-meta-divider">|</span>
@@ -606,24 +401,7 @@
 </section>
 
             <div class="post-body next-md-body" id="post_body">
-              <!-- more -->
-<p>  整体而言还是比较不错的，至少作为早在两年前停止了更新维护的静态博客写作端，时至今日也依然能用来成功地搭建一个个人博客，说明了这个软件就目前而言稳定性还是不错的。</p>
-<p>  这倒是不禁让我想起了一个非常冷门的安卓端本地记事APP——Andream。这个应用最初是我用酷派的时候发现的。不过再次想起来是几年之后的事情了。但意外的是，这个大约在17年就已经停止维护的APP，到现在的安卓10系统也依然可以稳定流畅地运行。备份、导出、密码、换背景之类的各种功能都依然可以正常使用，就是一些地方UI比较老旧，留有过去的安卓的痕迹。</p>
-<p>  不由得赞叹前辈们的伟大。</p>
-<p>  话说回来，我是昨天晚上按照官网的教程一步步利用 Github Page 把这个博客做起来的，全程都不需要我学编程、写代码、购买域名/服务器等操作。我已经真切地感受到了它对我这个小白的友好程度。无代理也能轻松进入博客，这一点正是我所需要的。不过我现在只能通过电脑端的 Girdea 来对博客进行简单的修改（加上现在同步都需要代理，毕竟 Github 不靠魔法也进不去）。如果要是想修改界面UI（主题），要么从Github上面用别人做好的主题，要么自己做。而我现在已经尝试了两款非内置的主题，无一例外都不能用。</p>
-<p>  无奈，我要是会编程该多好……然而这样我怕不是更加不务正业（</p>
-<p>  支持RSS订阅和社交媒体链接直达是非常不错的加分项。但RSS订阅，对一般人来说甚是遥远；而社交媒体，我自己都想放弃活跃了，何谈让别人从社交媒体去了解我呢。我也觉得高频率的活跃没有必要，因为我这个人真的没有什么能够让人崇拜的地方。</p>
-<p>  越是与别人相处，就越是感到自己的渺小与无能。我也不喜社交，因此从n年前开始就已经变得沉默寡言了。反正我再怎么活跃也都没有意义，不如让自己稍稍地自由一点。我目前的废话全都发在朋友圈里，只有几个同学能看到我的动态。也许某天我会试着用一个推特号写点简单的生活，来让想了解我的人去了解我吧。</p>
-<p>  目前就先写这么多吧。总结一下， Gridea 目前还是值得信赖的。这篇文章也算是我人生中真正意义上的第一篇博文。</p>
-<hr>
-<h3 id="补记"><strong>补记</strong></h3>
-<p>  在Gridea的电脑端编辑博文的体验非常不错，光标移动的动画效果和Markdown预览都能达到我的预期。然而实际浏览和预览的效果有所不同，尤其是表格。</p>
-<p>  下面这张是预览版的效果。<br>
-<img src="https://pic.imgdb.cn/item/6275fe9a0947543129378635.png" alt="" loading="lazy"></p>
-<p>  而这张才是网页版的最终效果。<br>
-<img src="https://pic.imgdb.cn/item/6275fe4509475431293678bf.png" alt="" loading="lazy"></p>
-<p>  你看这表格，预览还知道两张表格等宽呢，网页版的效果就显得非常小家子气……而且对于多出一行文字相关的居中，还是预览做的到位。以后慎用表格功能才行。</p>
-<p>  对了，其实这里的分割线效果我也有点不满意，个人更喜欢笔直的一条线，而非三个星号居中。不过慢慢来吧，希望自己有朝一日能让博客变得更加美观。</p>
+              <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=430 height=86 src="//music.163.com/outchain/player?type=2&id=114389&auto=0&height=66"></iframe>
 
             </div>
             
@@ -636,7 +414,7 @@
     </li>
     <li class="post-copyright-link">
       <strong class="language" data-lan="link">本文链接：</strong>
-      <a href="https://kyuux009.github.io/post/gridea-chu-ti-yan/" title="Gridea 初体验">https://kyuux009.github.io/post/gridea-chu-ti-yan/</a>
+      <a href="https://kyuux009.github.io/post/ce-shi/" title="测试">https://kyuux009.github.io/post/ce-shi/</a>
     </li>
     <li class="post-copyright-license">
       <strong class="language" data-lan="copyright">版权声明： </strong>
@@ -645,15 +423,9 @@
   </ul>
   <div class="tags">
     
-      <a href="https://kyuux009.github.io/tag/suiji/"># 随记</a>
-    
   </div>
   <div class="nav">
     <div class="nav-prev">
-      
-        <i class="fa fa-chevron-left"></i>
-        <a class="nav-pc-next" title="Markdown ＆ HTML 语法指南" href="https://kyuux009.github.io/post/markdown-and-html-yu-fa-zhi-nan/">Markdown ＆ HTML 语法指南</a class="nav-pc-next">
-        <a class="nav-mobile-prev" title="Markdown ＆ HTML 语法指南" href="https://kyuux009.github.io/post/markdown-and-html-yu-fa-zhi-nan/">上一篇</a>
       
     </div>
     <div class="nav-next">
