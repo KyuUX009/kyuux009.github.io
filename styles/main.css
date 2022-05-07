@@ -2059,16 +2059,6 @@ body {
         width: 960px;
         margin: 0 auto;
       }
-    @font-face {
-      font-family: 'FZXIANGSU16';
-      src: url('/media/fonts/FZXIANGSU16.ttf');
-    }
-    * {
-        font-family: 'FZXIANGSU16';
-    }
-    .katex-block *{
-      font-family: 'KaTeX_Main';
-    }
     body {
       color: #555;
     }
