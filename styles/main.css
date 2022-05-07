@@ -2048,7 +2048,9 @@ p > code {
     margin-bottom: 10px;
   }
 }
-body {
+.bg-color .bg-color {
+      background: transparent !important;
+    }body {
       background-color: #eee;
     }.header {
         width: 960px;
@@ -2069,7 +2071,7 @@ body {
       border-bottom-color: #555;
     }
     .archive-timeline-box::after, .tag-timeline-wrapper::after {
-      background: #eeeeeefe;
+      background: #eeeeeec9;
     }h1, h2, h3, h4, h5, h6 {
       color: #555;
     }
@@ -2115,11 +2117,11 @@ body {
       }.nav-item a:hover {
         color: #222;
       }.nav-item-active {
-      background: #f8f9fafe;
+      background: #f8f9fac9;
     }
 
     .nav-item:hover {
-      background: #f8f9fafe;
+      background: #f8f9fac9;
       color: rgba(0, 0, 0, 0.98);
     }.markdownIt-TOC a {
       color: #212529;
@@ -2146,7 +2148,7 @@ body {
       color: #fc6423;
       border-bottom-color: #fc6423;
     }.bg-color {
-      background-color: #fffffffe;
+      background-color: #ffffffc9;
     }
     .site-meta {
       background: #000 !important;
@@ -2157,11 +2159,17 @@ body {
     .brand {
   
     }
-    .main-title, .brand {
+    
+      .brand {
+        font-weight: bold;
+        transform: scale(1);
+      }.main-title, .brand {
       color: #FFF !important;
     }
     .mist .site-title i {
-      background: #FFFFFFfe;
+      background: #FFFFFFc9;
+    }.box-shadow-wrapper {
+      box-shadow: none !important;
     }body {
       cursor: default;
     }a {
