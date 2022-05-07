@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title>瑾声</title>
-    <updated>2022-05-07T02:51:12.676Z</updated>
+    <updated>2022-05-07T03:19:00.162Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -10,6 +10,61 @@
     <logo>https://kyuux009.github.io/images/avatar.png</logo>
     <icon>https://kyuux009.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 瑾声</rights>
+    <entry>
+        <title type="html"><![CDATA[Markdown ＆ HTML 语法指南]]></title>
+        <id>https://kyuux009.github.io/post/markdown-and-html-yu-fa-zhi-nan/</id>
+        <link href="https://kyuux009.github.io/post/markdown-and-html-yu-fa-zhi-nan/">
+        </link>
+        <updated>2022-05-07T02:52:18.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>是放在博客里用来自用的。当然，各位喜欢也可以尽管用就是了。</p>
+</blockquote>
+<h3 id="字体"><strong>字体</strong></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">元素</th>
+<th style="text-align:center">语法</th>
+<th style="text-align:center">示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">改变大小</td>
+<td style="text-align:center"><code>&lt;font size=3&gt;任意文本&lt;/font&gt;</code><br><font size=1>默认值为3，范围为1-7</font></td>
+<td style="text-align:center"><font size=1>我是size=1字体</font><br><font size=3>我是size=3字体</font><br><font size=5>我是size=5字体</font></td>
+</tr>
+<tr>
+<td style="text-align:center">改变颜色</td>
+<td style="text-align:center"><code>&lt;font color=red/blue etc&gt;任意文本&lt;/font&gt;</code></td>
+<td style="text-align:center"><font color=red>红色字体</font></td>
+</tr>
+</tbody>
+</table>
+<h3 id="空格"><strong>空格</strong></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">元素</th>
+<th style="text-align:center">语法</th>
+<th style="text-align:center">实例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">全角空格</td>
+<td style="text-align:center"><code>&amp;emsp;</code></td>
+<td style="text-align:center">全 角 空 格</td>
+</tr>
+<tr>
+<td style="text-align:center">半角空格<br><font size=1>一般不需要</font></td>
+<td style="text-align:center"><code>&amp;nbsp;</code></td>
+<td style="text-align:center">半 角 空 格</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gridea 初体验]]></title>
         <id>https://kyuux009.github.io/post/gridea-chu-ti-yan/</id>
