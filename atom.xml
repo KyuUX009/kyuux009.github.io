@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title>瑾声</title>
-    <updated>2022-05-07T17:23:50.044Z</updated>
+    <updated>2022-05-07T17:57:31.970Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://kyuux009.github.io/images/avatar.png</logo>
     <icon>https://kyuux009.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 瑾声</rights>
+    <entry>
+        <title type="html"><![CDATA[术力口歌曲100选]]></title>
+        <id>https://kyuux009.github.io/post/zhu-li-kou-ge-qu-100-xuan/</id>
+        <link href="https://kyuux009.github.io/post/zhu-li-kou-ge-qu-100-xuan/">
+        </link>
+        <updated>2022-05-07T17:51:22.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="1-world-is-mine"><strong>1. World is Mine</strong></h3>
+<blockquote>
+<p>当年的入坑曲，也是人生里第一首所听的术曲。</p>
+</blockquote>
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcy1PTjBqYWQta0FpaDRIVWNXRXRJWUhDMFlUP2U9ZXZZMVRi.mp3">
+      </audio>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Markdown ＆ HTML 语法指南]]></title>
         <id>https://kyuux009.github.io/post/markdown-and-html-yu-fa-zhi-nan/</id>
