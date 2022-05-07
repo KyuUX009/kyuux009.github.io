@@ -2069,6 +2069,10 @@ body {
     .katex-block *{
       font-family: 'KaTeX_Main';
     }
+    
+    .post-body {
+      font-size: 16px !important
+    }
     body {
       color: #555;
     }
