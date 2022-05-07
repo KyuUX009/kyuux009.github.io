@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title>瑾声</title>
-    <updated>2022-05-07T05:13:01.575Z</updated>
+    <updated>2022-05-07T05:23:48.414Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -16,14 +16,10 @@
         <link href="https://kyuux009.github.io/post/markdown-and-html-yu-fa-zhi-nan/">
         </link>
         <updated>2022-05-07T02:52:18.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
+        <content type="html"><![CDATA[<!-- more -->
+<blockquote>
 <p>是放在博客里用来自用的。当然，各位喜欢也可以尽管用就是了。</p>
 </blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>是放在博客里用来自用的。当然，各位喜欢也可以尽管用就是了。</p>
-</blockquote>
-<!-- more -->
 <h2 id="字体"><strong>字体</strong></h2>
 <h3 id="1-标题"><strong>1. 标题</strong></h3>
 <p><strong>◎ 语法</strong><br>
@@ -87,10 +83,8 @@
         <link href="https://kyuux009.github.io/post/gridea-chu-ti-yan/">
         </link>
         <updated>2022-05-07T00:55:49.000Z</updated>
-        <summary type="html"><![CDATA[<p>  整体而言还是比较不错的，至少作为早在两年前停止了更新维护的静态博客写作端，时至今日也依然能用来成功地搭建一个个人博客，说明了这个软件就目前而言稳定性还是不错的。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>  整体而言还是比较不错的，至少作为早在两年前停止了更新维护的静态博客写作端，时至今日也依然能用来成功地搭建一个个人博客，说明了这个软件就目前而言稳定性还是不错的。</p>
-<!-- more -->
+        <content type="html"><![CDATA[<!-- more -->
+<p>  整体而言还是比较不错的，至少作为早在两年前停止了更新维护的静态博客写作端，时至今日也依然能用来成功地搭建一个个人博客，说明了这个软件就目前而言稳定性还是不错的。</p>
 <p>  这倒是不禁让我想起了一个非常冷门的安卓端本地记事APP——Andream。这个应用最初是我用酷派的时候发现的。不过再次想起来是几年之后的事情了。但意外的是，这个大约在17年就已经停止维护的APP，到现在的安卓10系统也依然可以稳定流畅地运行。备份、导出、密码、换背景之类的各种功能都依然可以正常使用，就是一些地方UI比较老旧，留有过去的安卓的痕迹。</p>
 <p>  不由得赞叹前辈们的伟大。</p>
 <p>  话说回来，我是昨天晚上按照官网的教程一步步利用 Github Page 把这个博客做起来的，全程都不需要我学编程、写代码、购买域名/服务器等操作。我已经真切地感受到了它对我这个小白的友好程度。无代理也能轻松进入博客，这一点正是我所需要的。不过我现在只能通过电脑端的 Girdea 来对博客进行简单的修改（加上现在同步都需要代理，毕竟 Github 不靠魔法也进不去）。如果要是想修改界面UI（主题），要么从Github上面用别人做好的主题，要么自己做。而我现在已经尝试了两款非内置的主题，无一例外都不能用。</p>
