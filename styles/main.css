@@ -2059,6 +2059,16 @@ body {
         width: 960px;
         margin: 0 auto;
       }
+    @font-face {
+      font-family: 'FZXIANGSU16';
+      src: url('/media/fonts/FZXIANGSU16.ttf');
+    }
+    * {
+        font-family: 'FZXIANGSU16';
+    }
+    .katex-block *{
+      font-family: 'KaTeX_Main';
+    }
     body {
       color: #555;
     }
@@ -2115,11 +2125,11 @@ body {
       }.nav-item a:hover {
         color: #222;
       }.nav-item-active {
-      background: #f9f9f9fe;
+      background: #f8f9fafe;
     }
 
     .nav-item:hover {
-      background: #f9f9f9fe;
+      background: #f8f9fafe;
       color: rgba(0, 0, 0, 0.98);
     }.site-author-image {
       border-radius: 50%;
@@ -2172,7 +2182,7 @@ body {
     .mist .site-title i {
       background: #FFFFFFfe;
     }body {
-      cursor: default;
+      cursor: url('/media/curs/Black.cur'), default;
     }a {
       cursor: pointer;
     }input, textarea, code {
