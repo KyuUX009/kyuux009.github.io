@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title>瑾声</title>
-    <updated>2022-05-07T01:45:14.219Z</updated>
+    <updated>2022-05-07T01:51:01.552Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -16,6 +16,10 @@
         <link href="https://kyuux009.github.io/post/gridea-chu-ti-yan/">
         </link>
         <updated>2022-05-07T00:55:49.000Z</updated>
+        <summary type="html"><![CDATA[<p>  整体而言还是比较不错的，至少作为早在两年前停止了更新维护的静态博客写作端，时至今日也依然能用来成功地搭建一个个人博客，说明了这个软件就目前而言稳定性还是不错的。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>  整体而言还是比较不错的，至少作为早在两年前停止了更新维护的静态博客写作端，时至今日也依然能用来成功地搭建一个个人博客，说明了这个软件就目前而言稳定性还是不错的。</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
