@@ -2182,7 +2182,7 @@ body {
     .mist .site-title i {
       background: #FFFFFFfe;
     }body {
-      cursor: url('/media/curs/Black.cur'), default;
+      cursor: default;
     }a {
       cursor: pointer;
     }input, textarea, code {
