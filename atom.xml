@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title>瑾声</title>
-    <updated>2022-05-08T04:13:26.695Z</updated>
+    <updated>2022-05-08T04:27:14.289Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -45,7 +45,7 @@
       </audio>
 <h3 id="7-ギャラクシアンルーレット"><strong>7. ギャラクシアン・ルーレット</strong></h3>
 <audio id="audio" controls="" preload="none">
-      <source id="mp3" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcy1PTjBqYWQta0FpaVpUZ1NZN3lhRDZhX3FQP2U9WGxyc0Uw.mp3">
+      <source id="mp3" src="https://link.jscdn.cn/sharepoint/aHR0cHM6Ly8xZHJpdi1teS5zaGFyZXBvaW50LmNvbS86dTovZy9wZXJzb25hbC9zdG9yXzFkcml2X29ubWljcm9zb2Z0X2NvbS9FVzdBZktYU0pPQkR0Z0VDSmVoZ09rVUJfMXJrM2t3bnRxUl9wNlAyWmF2X3FR.mp3">
       </audio>
 ]]></content>
     </entry>
