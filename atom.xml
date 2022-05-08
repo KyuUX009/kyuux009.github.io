@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title>瑾声</title>
-    <updated>2022-05-07T18:09:42.172Z</updated>
+    <updated>2022-05-08T04:09:55.417Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -16,13 +16,38 @@
         <link href="https://kyuux009.github.io/post/zhu-li-kou-ge-qu-100-xuan/">
         </link>
         <updated>2022-05-07T17:51:22.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="1-world-is-mine"><strong>1. World is Mine</strong></h3>
+        <content type="html"><![CDATA[<h3 id="1-ワールドイズマイン"><strong>1. ワールドイズマイン</strong></h3>
 <blockquote>
-<p>当年的入坑曲，也是人生里第一首所听的术曲。</p>
+<p>当年的入坑曲，也是人生里第一首所听的术曲。当年还是很喜欢用酷狗听歌的，至今记得“世界第一公主殿下”是当年热度第一（毕竟排名靠前）</p>
 </blockquote>
 <audio id="audio" controls="" preload="none">
       <source id="mp3" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcy1PTjBqYWQta0FpaF81SlV3Q0ZTeGxzdU9IP2U9RWxZUHda.mp3">
-      </audio>]]></content>
+      </audio>
+<h3 id="2-マトリョシカ"><strong>2. マトリョシカ</strong></h3>
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcy1PTjBqYWQta0FpaUg3TWtpOTEzczltQ21EP2U9UWwzdWVi.mp3">
+      </audio>
+<h3 id="3-しんでしまうとはなさけない"><strong>3. しんでしまうとはなさけない!</strong></h3>
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcy1PTjBqYWQta0FpaUxQRXdGQ1FOUnR4d1l4P2U9dDhPNFNh.mp3">
+      </audio>
+<h3 id="4-ワールズエンドダンスホール"><strong>4. ワールズエンド・ダンスホール</strong></h3>
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcy1PTjBqYWQta0FpaU54UnZBOW1hUmFCMk5fP2U9M1NseENS.mp3">
+      </audio>
+<h3 id="5-anti-theholic"><strong>5. Anti the∞HOLiC</strong></h3>
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcy1PTjBqYWQta0FpaVNOZjlhMFo3NDlkSEN4P2U9UVhUdkJG.mp3">
+      </audio>
+<h3 id="6-妄想税"><strong>6. 妄想税</strong></h3>
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcy1PTjBqYWQta0FpaVZtYjRNVjFmdW0zVElYP2U9Y2VRV3Zv.mp3">
+      </audio>
+<h3 id="7-ギャラクシアンルーレット"><strong>7. ギャラクシアン・ルーレット</strong></h3>
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcy1PTjBqYWQta0FpaVpUZ1NZN3lhRDZhX3FQP2U9WGxyc0Uw.mp3">
+      </audio>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Markdown ＆ HTML 语法指南]]></title>
