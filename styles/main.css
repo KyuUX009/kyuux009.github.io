@@ -2175,15 +2175,15 @@ p > code {
     }.box-shadow-wrapper {
       box-shadow: none !important;
     }body {
-      cursor: url('/media/curs/pointer.cur'), default;
+      cursor: url('/media/curs/normal.cur'), default;
     }a {
-      cursor: url('/media/curs/link.cur'), pointer !important;
+      cursor: url('/media/curs/hand.cur'), pointer !important;
     }input, textarea, code {
-      cursor: url('/media/curs/beam.cur'), text !important;
+      cursor: url('/media/curs/text.cur'), text !important;
     }code > span.copy-code {
-      cursor: url('/media/curs/beam.cur'), text !important;
+      cursor: url('/media/curs/test.cur'), text !important;
     }.post img {
-      cursor: url('/media/curs/dgn1.cur'), zoom-in !important;
+      cursor: url('/media/curs/diag1.cur'), zoom-in !important;
     }.post img {
-      cursor: url('/media/curs/dgn2.cur'), zoom-out !important;
+      cursor: url('/media/curs/diag2.cur'), zoom-out !important;
     }
