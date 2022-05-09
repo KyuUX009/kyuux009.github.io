@@ -2175,15 +2175,15 @@ p > code {
     }.box-shadow-wrapper {
       box-shadow: none !important;
     }body {
-      cursor: default;
+      cursor: url('/media/curs/pointer.cur'), default;
     }a {
-      cursor: pointer;
+      cursor: url('/media/curs/link.cur'), pointer !important;
     }input, textarea, code {
-      cursor: text;
+      cursor: url('/media/curs/beam.cur'), text !important;
     }code > span.copy-code {
-      cursor: pointer;
+      cursor: url('/media/curs/beam.cur'), text !important;
     }.post img {
-      cursor: zoom-in;
+      cursor: url('/media/curs/dgn1.cur'), zoom-in !important;
     }.post img {
-      cursor: zoom-out;
+      cursor: url('/media/curs/dgn2.cur'), zoom-out !important;
     }
