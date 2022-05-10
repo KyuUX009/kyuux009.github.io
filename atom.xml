@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title>瑾声</title>
-    <updated>2022-05-10T03:30:57.233Z</updated>
+    <updated>2022-05-10T03:51:55.733Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -11,12 +11,13 @@
     <rights>All rights reserved 2022, 瑾声</rights>
     <entry>
         <title type="html"><![CDATA[hexo 个人指南]]></title>
-        <id>https://kyuux009.github.io/post/hexo-ge-ren-zhi-nan/</id>
-        <link href="https://kyuux009.github.io/post/hexo-ge-ren-zhi-nan/">
+        <id>https://kyuux009.github.io/post/hexo-guide/</id>
+        <link href="https://kyuux009.github.io/post/hexo-guide/">
         </link>
         <updated>2022-05-10T01:57:29.000Z</updated>
         <content type="html"><![CDATA[<h1 id="前言">前言</h1>
 <p>由于hexo涉及到其他较专业领域的知识，而我目前不过是照着葫芦画瓢……这两天就收藏了不少hexo相关的教程链接。为了让自己以后使用hexo更为方便，就写下这篇文章。</p>
+<hr>
 <h1 id="具体问题">具体问题</h1>
 <h2 id="编辑yml文件">编辑yml文件</h2>
 <p>TXT编辑器可以直接打开，但因为涉及到编程语言，建议使用Notepad++</p>
