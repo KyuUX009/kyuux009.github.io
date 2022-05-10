@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title>瑾声</title>
-    <updated>2022-05-10T07:21:34.460Z</updated>
+    <updated>2022-05-10T07:48:16.623Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -32,6 +32,9 @@ $ hexo d
 <li>Windows＋R 打开cmd</li>
 <li>输入<code>taskkill /F /PID 使用的端口号</code>，即可终结</li>
 </ol>
+<blockquote>
+<p>注：使用的端口号要看Git Bash最后显示的是什么。</p>
+</blockquote>
 <h2 id="更换主题">更换主题</h2>
 <ol>
 <li>找到对应主题的 GitHub 页面，复制clone链接</li>
@@ -44,7 +47,7 @@ $ hexo d
 </blockquote>
 <h2 id="关于备案">关于备案</h2>
 <p>服务器位于大陆才需要对域名进行备案。<br>
-GithubPage的服务器位于美国或者其它地区，非大陆服务器。<br>
+Github Page的服务器位于美国或者其它地区，非大陆服务器。<br>
 因此<strong>不需要备案。</strong></p>
 <h2 id="数据迁移及同步">数据迁移及同步</h2>
 <p>【这是一个非常重要的问题，虽然目前不需要换设备但我想还是要注意一下……】</p>
