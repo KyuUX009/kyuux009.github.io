@@ -2,17 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title> 瑾声 </title>
-    <updated>2022-05-10T09:43:43.228Z</updated>
+    <updated>2022-05-10T09:51:05.295Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
+    <subtitle>九瑾谣的个人博客。</subtitle>
     <logo>https://kyuux009.github.io/images/avatar.png</logo>
     <icon>https://kyuux009.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022,  瑾声 </rights>
     <entry>
         <title type="html"><![CDATA[接触个人博客搭建の第四天]]></title>
-        <id>https://kyuux009.github.io/post/jie-hong-ge-ren-bo-ke-da-jian-nodi-si-tian/</id>
-        <link href="https://kyuux009.github.io/post/jie-hong-ge-ren-bo-ke-da-jian-nodi-si-tian/">
+        <id>https://kyuux009.github.io/jie-hong-ge-ren-bo-ke-da-jian-nodi-si-tian/</id>
+        <link href="https://kyuux009.github.io/jie-hong-ge-ren-bo-ke-da-jian-nodi-si-tian/">
         </link>
         <updated>2022-05-10T07:50:14.000Z</updated>
         <content type="html"><![CDATA[<p>  怎么说呢，我感觉我好心累。<br>
@@ -24,8 +25,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[hexo 个人指南]]></title>
-        <id>https://kyuux009.github.io/post/hexo-guide/</id>
-        <link href="https://kyuux009.github.io/post/hexo-guide/">
+        <id>https://kyuux009.github.io/hexo-guide/</id>
+        <link href="https://kyuux009.github.io/hexo-guide/">
         </link>
         <updated>2022-05-10T01:57:29.000Z</updated>
         <content type="html"><![CDATA[<h1 id="前言">前言</h1>
@@ -68,8 +69,8 @@ Github Page的服务器位于美国或者其它地区，非大陆服务器。<br
     </entry>
     <entry>
         <title type="html"><![CDATA[术力口歌曲100选]]></title>
-        <id>https://kyuux009.github.io/post/100bokarosongs-loved/</id>
-        <link href="https://kyuux009.github.io/post/100bokarosongs-loved/">
+        <id>https://kyuux009.github.io/100bokarosongs-loved/</id>
+        <link href="https://kyuux009.github.io/100bokarosongs-loved/">
         </link>
         <updated>2022-05-07T17:51:22.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -137,8 +138,8 @@ Github Page的服务器位于美国或者其它地区，非大陆服务器。<br
     </entry>
     <entry>
         <title type="html"><![CDATA[Markdown ＆ HTML 语法指南]]></title>
-        <id>https://kyuux009.github.io/post/markdown-and-html-yu-fa-zhi-nan/</id>
-        <link href="https://kyuux009.github.io/post/markdown-and-html-yu-fa-zhi-nan/">
+        <id>https://kyuux009.github.io/markdown-and-html-yu-fa-zhi-nan/</id>
+        <link href="https://kyuux009.github.io/markdown-and-html-yu-fa-zhi-nan/">
         </link>
         <updated>2022-05-07T02:52:18.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
@@ -204,8 +205,8 @@ Github Page的服务器位于美国或者其它地区，非大陆服务器。<br
     </entry>
     <entry>
         <title type="html"><![CDATA[Gridea 初体验]]></title>
-        <id>https://kyuux009.github.io/post/gridea-chu-ti-yan/</id>
-        <link href="https://kyuux009.github.io/post/gridea-chu-ti-yan/">
+        <id>https://kyuux009.github.io/gridea-chu-ti-yan/</id>
+        <link href="https://kyuux009.github.io/gridea-chu-ti-yan/">
         </link>
         <updated>2022-05-07T00:55:49.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
