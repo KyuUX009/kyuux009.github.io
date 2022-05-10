@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title>瑾声</title>
-    <updated>2022-05-10T04:47:42.840Z</updated>
+    <updated>2022-05-10T07:21:34.460Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -20,7 +20,13 @@
 <hr>
 <h1 id="具体问题">具体问题</h1>
 <h2 id="编辑yml文件">编辑yml文件</h2>
-<p>TXT编辑器可以直接打开，但因为涉及到编程语言，建议使用Notepad++</p>
+<p>TXT编辑器可以直接打开，但因为涉及到编程语言，建议使用Notepad++<br>
+补：后来看到一个UP主用了一个更加高级的软件，左边文件目录，右边编辑界面……那个软件叫 Visual Studio Code</p>
+<h2 id="部署">部署</h2>
+<pre><code>$ hexo clean
+$ hexo g
+$ hexo d
+</code></pre>
 <h2 id="终结-hexo-server">终结 <strong>hexo server</strong></h2>
 <ol>
 <li>Windows＋R 打开cmd</li>
