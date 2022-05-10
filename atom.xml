@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title> 瑾声 </title>
-    <updated>2022-05-10T13:53:30.937Z</updated>
+    <updated>2022-05-10T15:03:01.921Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -36,7 +36,7 @@
         <content type="html"><![CDATA[<h1 id="前言">前言</h1>
 <p>由于hexo涉及到其他较专业领域的知识，而我目前不过是照着葫芦画瓢……这两天就收藏了不少hexo相关的教程链接。为了让自己以后使用hexo更为方便，就写下这篇文章。</p>
 <hr>
-<h1 id="具体问题">具体问题</h1>
+<h1 id="具体基本问题">具体基本问题</h1>
 <h2 id="编辑yml文件">编辑yml文件</h2>
 <p>TXT编辑器可以直接打开，但因为涉及到编程语言，建议使用Notepad++<br>
 补：后来看到一个UP主用了一个更加高级的软件，左边文件目录，右边编辑界面……那个软件叫 Visual Studio Code</p>
@@ -69,6 +69,20 @@ Github Page的服务器位于美国或者其它地区，非大陆服务器。<br
 因此<strong>不需要备案。</strong></p>
 <h2 id="数据迁移及同步">数据迁移及同步</h2>
 <p>【这是一个非常重要的问题，虽然目前不需要换设备但我想还是要注意一下……】</p>
+<h1 id="插件相关">插件相关</h1>
+<h2 id="hexo-admin">Hexo-Admin</h2>
+<h3 id="deploy报错">Deploy报错</h3>
+<pre><code>Error: Config value &quot;admin.deployCommand&quot; not found
+或者
+Error: spawn hexo ENOENT
+</code></pre>
+<ol>
+<li>在博客根目录新建文件<code>hexo-generate.bat</code>，写入一行<code>hexo g -d</code></li>
+<li>打开站点部署文件config.yml，在admin新增代码如下：</li>
+</ol>
+<pre><code>admin:
+  deployCommand: 'hexo-generate.bat'
+</code></pre>
 ]]></content>
     </entry>
     <entry>
