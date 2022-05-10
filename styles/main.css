@@ -2119,15 +2119,24 @@ body {
       }.nav-item a:hover {
         color: #222;
       }.nav-item-active {
-      background: #f8f9fafe;
+      background: #f9f9f9fe;
     }
 
     .nav-item:hover {
-      background: #f8f9fafe;
+      background: #f9f9f9fe;
       color: rgba(0, 0, 0, 0.98);
+    }.site-author-image {
+      border-radius: 50%;
+    }
+    .site-author-image:hover {
+      transform: rotate(666turn);
+      transition-delay: 1s;
+      transition-property: all;
+      transition-duration: 59s;
+      transition-timing-function: cubic-bezier(.34,0,.84,1);
     }.markdownIt-TOC a {
-      color: #212529;
-      border-bottom-color: #212529;
+      color: #343a40;
+      border-bottom-color: #343a40;
     }.markdownIt-TOC a:hover {
       color: #dee2e6;
       border-bottom-color: #dee2e6;
@@ -2161,11 +2170,7 @@ body {
     .brand {
   
     }
-    
-      .brand {
-        font-weight: bold;
-        transform: scale(1);
-      }.main-title, .brand {
+    .main-title, .brand {
       color: #FFF !important;
     }
     .mist .site-title i {
@@ -2175,13 +2180,13 @@ body {
     }body {
       cursor: url('/media/curs/normal.cur'), default;
     }a {
-      cursor: url('/media/curs/hand.cur'), pointer !important;
+      cursor: url('/media/curs/link.cur'), pointer !important;
     }input, textarea, code {
       cursor: url('/media/curs/text.cur'), text !important;
     }code > span.copy-code {
-      cursor: url('/media/curs/test.cur'), text !important;
+      cursor: url('/media/curs/text.cur'), text !important;
     }.post img {
-      cursor: url('/media/curs/diag1.cur'), zoom-in !important;
+      cursor: url('/media/curs/diag2.cur'), zoom-in !important;
     }.post img {
-      cursor: url('/media/curs/diag2.cur'), zoom-out !important;
+      cursor: url('/media/curs/diag1.cur'), zoom-out !important;
     }
