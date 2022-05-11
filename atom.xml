@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title> 瑾声 </title>
-    <updated>2022-05-11T06:33:34.385Z</updated>
+    <updated>2022-05-11T06:45:37.461Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -37,7 +37,7 @@
 <p>由于hexo涉及到其他较专业领域的知识，而我目前不过是照着葫芦画瓢……这两天就收藏了不少hexo相关的教程链接。为了让自己以后使用hexo更为方便，就写下这篇文章。</p>
 <hr>
 <h1 id="具体基本问题">具体基本问题</h1>
-<h2 id="搭建博客最后的hexo-d出错">搭建博客最后的<code>hexo d</code>出错</h2>
+<h2 id="搭建博客第二次hexo-d出错">§ 搭建博客第二次<code>hexo d</code>出错</h2>
 <p>若按照部分教程所说，将站点部署文件rope部分写成如下形式：</p>
 <pre><code>Deploy:
   rope：https://github.com/YourgithubName/YourgithubName.github.io.git
@@ -45,15 +45,15 @@
 <p>则修改为：</p>
 <pre><code>git@github.com:???????/????????.github.io.git【仓库昵称】
 </code></pre>
-<h2 id="编辑yml文件">编辑yml文件</h2>
+<h2 id="编辑yml文件">§ 编辑yml文件</h2>
 <p>TXT编辑器可以直接打开，但因为涉及到编程语言，建议使用Notepad++<br>
 补：后来看到一个UP主用了一个更加高级的软件，左边文件目录，右边编辑界面……那个软件叫 Visual Studio Code</p>
-<h2 id="部署">部署</h2>
+<h2 id="部署">§ 部署</h2>
 <pre><code>$ hexo clean
 $ hexo g
 $ hexo d
 </code></pre>
-<h2 id="终结-hexo-server">终结 <strong>hexo server</strong></h2>
+<h2 id="终结-hexo-server">§ 终结 <strong>hexo server</strong></h2>
 <ol>
 <li>Windows＋R 打开cmd</li>
 <li>输入以下代码，即可终结</li>
@@ -63,7 +63,7 @@ $ hexo d
 <blockquote>
 <p>注：使用的端口号要看Git Bash在打开本地部署后显示的&quot;node:&quot;后面是什么。</p>
 </blockquote>
-<h2 id="更换主题">更换主题</h2>
+<h2 id="更换主题">§ 更换主题</h2>
 <ol>
 <li>找到对应主题的 GitHub 页面，复制clone链接</li>
 <li>对本地的theme文件使用Git Bash，输入<code>git clone 刚才复制的链接</code>，即可自动下载安装</li>
@@ -74,18 +74,18 @@ $ hexo d
 <p>一般本地部署出现异常的时候就可以确认主题不可用，比如毫无排版的页面。当然，有解决办法的话还是要<br>
 尽可能找一下。</p>
 </blockquote>
-<h2 id="某主题无法出现菜单使用自动刷新插件">某主题无法出现菜单/使用自动刷新插件</h2>
+<h2 id="某主题无法出现菜单使用自动刷新插件">§ 某主题无法出现菜单/使用自动刷新插件</h2>
 <p>有没有一种可能，就是换个主题就没事了,就算是最原始的landspace也可以？</p>
 <blockquote>
 <p>至少我是，被这几个问题折磨半天，查不到处理方法，万般无奈之下换了主题，结果之前的问题仿佛从未发生过……不得不说<u><strong>换主题</strong></u>真的是最简单的解决办法了。</p>
 </blockquote>
-<h2 id="关于备案">关于备案</h2>
+<h2 id="关于备案">§ 关于备案</h2>
 <p>服务器位于大陆才需要对域名进行备案。<br>
 Github Page的服务器位于美国或者其它地区，非大陆服务器。<br>
 因此<strong>不需要备案。</strong></p>
-<h2 id="数据迁移及同步">数据迁移及同步</h2>
+<h2 id="数据迁移及同步">§ 数据迁移及同步</h2>
 <p>【这是一个非常重要的问题，虽然目前不需要换设备但我想还是要注意一下……】</p>
-<h2 id="卸载清空hexo">卸载/清空hexo</h2>
+<h2 id="卸载清空hexo">§ 卸载/清空hexo</h2>
 <blockquote>
 <p>这里是便于重新搭建hexo用的步骤（如果不知道出错的具体问题在哪里可以考虑一下）</p>
 </blockquote>
@@ -97,7 +97,7 @@ Github Page的服务器位于美国或者其它地区，非大陆服务器。<br
 <blockquote>
 <p>不建议粉碎，建议Ctrl＋D分批删除文件夹</p>
 </blockquote>
-<h2 id="卸载指定hexo插件">卸载指定hexo插件</h2>
+<h2 id="卸载指定hexo插件">§ 卸载指定hexo插件</h2>
 <ol>
 <li>查看插件列表</li>
 </ol>
@@ -108,9 +108,7 @@ Github Page的服务器位于美国或者其它地区，非大陆服务器。<br
 </ol>
 <pre><code>npm uninstall ???????【插件名】
 </code></pre>
-<h1 id="插件相关">插件相关</h1>
-<h2 id="hexo-admin">Hexo-Admin</h2>
-<h3 id="deploy报错">Deploy报错</h3>
+<h2 id="hexo-admin插件deploy报错">§ Hexo-Admin（插件）Deploy报错</h2>
 <pre><code>Error: Config value &quot;admin.deployCommand&quot; not found
 或者
 Error: spawn hexo ENOENT
