@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title> 瑾声 </title>
-    <updated>2022-05-10T15:07:03.832Z</updated>
+    <updated>2022-05-11T01:27:49.276Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -37,6 +37,10 @@
 <p>由于hexo涉及到其他较专业领域的知识，而我目前不过是照着葫芦画瓢……这两天就收藏了不少hexo相关的教程链接。为了让自己以后使用hexo更为方便，就写下这篇文章。</p>
 <hr>
 <h1 id="具体基本问题">具体基本问题</h1>
+<h2 id="搭建博客最后的hexo-d出错">搭建博客最后的<code>hexo d</code>出错</h2>
+<p>原因：<br>
+站点部署文件rope：<code>https://github.com/YourgithubName/YourgithubName.github.io.git</code></p>
+<p>修改站点部署文件最后的rope为：<code>git@github.com:???????/????????.github.io.git【仓库昵称】</code></p>
 <h2 id="编辑yml文件">编辑yml文件</h2>
 <p>TXT编辑器可以直接打开，但因为涉及到编程语言，建议使用Notepad++<br>
 补：后来看到一个UP主用了一个更加高级的软件，左边文件目录，右边编辑界面……那个软件叫 Visual Studio Code</p>
@@ -51,7 +55,7 @@ $ hexo d
 <li>输入<code>taskkill /F /PID 使用的端口号</code>，即可终结</li>
 </ol>
 <blockquote>
-<p>注：使用的端口号要看Git Bash最后显示的&quot;node:&quot;后面是什么。</p>
+<p>注：使用的端口号要看Git Bash在打开本地部署后显示的&quot;node:&quot;后面是什么。</p>
 </blockquote>
 <h2 id="更换主题">更换主题</h2>
 <ol>
@@ -69,6 +73,18 @@ Github Page的服务器位于美国或者其它地区，非大陆服务器。<br
 因此<strong>不需要备案。</strong></p>
 <h2 id="数据迁移及同步">数据迁移及同步</h2>
 <p>【这是一个非常重要的问题，虽然目前不需要换设备但我想还是要注意一下……】</p>
+<h2 id="如何卸载清空hexo">如何卸载/清空hexo</h2>
+<blockquote>
+<p>这里是便于重新搭建hexo用的步骤（如果不知道出错的具体问题在哪里可以考虑一下）</p>
+</blockquote>
+<ol>
+<li>删除对应的github仓库</li>
+<li>删除github的SSH Key以及本地生成的ssh文件夹</li>
+<li>将本地博客根目录的source、theme文件粘贴到其他地方，剩下的全部删除</li>
+</ol>
+<blockquote>
+<p>不建议粉碎，建议Ctrl＋D分批删除文件夹</p>
+</blockquote>
 <h1 id="插件相关">插件相关</h1>
 <h2 id="hexo-admin">Hexo-Admin</h2>
 <h3 id="deploy报错">Deploy报错</h3>
