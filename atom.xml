@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title> 瑾声 </title>
-    <updated>2022-05-11T06:15:24.578Z</updated>
+    <updated>2022-05-11T06:25:41.011Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -74,7 +74,7 @@ $ hexo d
 <h2 id="某主题无法出现菜单-使用自动刷新插件">某主题无法出现菜单、使用自动刷新插件</h2>
 <p>有没有一种可能，就是换个主题就没事了？就算是最原始的landspace也可以？</p>
 <blockquote>
-<p>至少我是，被这几个问题折磨半天，查不到处理方法，万般无奈换了主题却一切安好……</p>
+<p>至少我是，被这几个问题折磨半天，查不到处理方法，万般无奈之下换了主题，结果之前的问题仿佛从未发生过……不得不说<u><strong>换主题</strong></u>真的是最简单的解决办法了。</p>
 </blockquote>
 <h2 id="关于备案">关于备案</h2>
 <p>服务器位于大陆才需要对域名进行备案。<br>
