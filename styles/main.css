@@ -2166,10 +2166,10 @@ p > code {
       border-radius: 10px;
     }
     .site-meta {
-      background: #1864ab !important;
+      background: #343a40 !important;
     }
     .head-top-line {
-      background: #1864ab;
+      background: #343a40;
     }
     .brand {
   
@@ -2179,12 +2179,8 @@ p > code {
     }
     .mist .site-title i {
       background: #FFFFFFcc;
-    }.bg-img img {
-        filter: blur(4px)
-      }.box-shadow-wrapper {
-      padding: 10px;
     }.box-shadow-wrapper {
-      box-shadow: none !important;
+      padding: 10px;
     }body {
       cursor: url('/media/curs/normal.cur'), default;
     }a {
