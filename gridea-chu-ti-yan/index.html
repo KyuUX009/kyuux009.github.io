@@ -9,7 +9,7 @@
 <meta name="description" content="九瑾谣的个人博客。">
 <meta name="theme-color" content="#000">
 <title>Gridea 初体验 |  瑾声 </title>
-<link rel="shortcut icon" href="/favicon.ico?v=1652250489846">
+<link rel="shortcut icon" href="/favicon.ico?v=1652250810460">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -1185,12 +1185,13 @@
 &lt;hr&gt;
 &lt;h1 id=&#34;具体基本问题&#34;&gt;具体基本问题&lt;/h1&gt;
 &lt;h2 id=&#34;搭建博客最后的hexo-d出错&#34;&gt;搭建博客最后的&lt;code&gt;hexo d&lt;/code&gt;出错&lt;/h2&gt;
-&lt;p&gt;如果站点部署文件rope部分如下：&lt;/p&gt;
+&lt;p&gt;若按照部分教程所说，将站点部署文件rope部分写成如下形式：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Deploy:
   rope：https://github.com/YourgithubName/YourgithubName.github.io.git
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;修改站点部署文件最后的rope为：&lt;br&gt;
-&lt;code&gt;git@github.com:???????/????????.github.io.git【仓库昵称】&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;则修改为：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git@github.com:???????/????????.github.io.git【仓库昵称】
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;编辑yml文件&#34;&gt;编辑yml文件&lt;/h2&gt;
 &lt;p&gt;TXT编辑器可以直接打开，但因为涉及到编程语言，建议使用Notepad++&lt;br&gt;
 补：后来看到一个UP主用了一个更加高级的软件，左边文件目录，右边编辑界面……那个软件叫 Visual Studio Code&lt;/p&gt;
@@ -1202,8 +1203,10 @@ $ hexo d
 &lt;h2 id=&#34;终结-hexo-server&#34;&gt;终结 &lt;strong&gt;hexo server&lt;/strong&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Windows＋R 打开cmd&lt;/li&gt;
-&lt;li&gt;输入&lt;code&gt;taskkill /F /PID 使用的node号&lt;/code&gt;，即可终结&lt;/li&gt;
+&lt;li&gt;输入以下代码，即可终结&lt;/li&gt;
 &lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;taskkill /F /PID 端口使用的node号
+&lt;/code&gt;&lt;/pre&gt;
 &lt;blockquote&gt;
 &lt;p&gt;注：使用的端口号要看Git Bash在打开本地部署后显示的&amp;quot;node:&amp;quot;后面是什么。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1218,8 +1221,8 @@ $ hexo d
 &lt;p&gt;一般本地部署出现异常的时候就可以确认主题不可用，比如毫无排版的页面。当然，有解决办法的话还是要&lt;br&gt;
 尽可能找一下。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;某主题无法出现菜单-使用自动刷新插件&#34;&gt;某主题无法出现菜单、使用自动刷新插件&lt;/h2&gt;
-&lt;p&gt;有没有一种可能，就是换个主题就没事了？就算是最原始的landspace也可以？&lt;/p&gt;
+&lt;h2 id=&#34;某主题无法出现菜单使用自动刷新插件&#34;&gt;某主题无法出现菜单/使用自动刷新插件&lt;/h2&gt;
+&lt;p&gt;有没有一种可能，就是换个主题就没事了,就算是最原始的landspace也可以？&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;至少我是，被这几个问题折磨半天，查不到处理方法，万般无奈之下换了主题，结果之前的问题仿佛从未发生过……不得不说&lt;u&gt;&lt;strong&gt;换主题&lt;/strong&gt;&lt;/u&gt;真的是最简单的解决办法了。&lt;/p&gt;
 &lt;/blockquote&gt;
