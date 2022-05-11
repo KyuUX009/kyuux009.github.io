@@ -2056,7 +2056,7 @@ p > code {
     }.bg-color .bg-color {
       background: transparent !important;
     }body {
-      background-color: #eee;
+      background-color: #343a40;
     }.header {
         width: 960px;
         margin: 0 auto;
@@ -2080,7 +2080,7 @@ p > code {
       border-bottom-color: #555;
     }
     .archive-timeline-box::after, .tag-timeline-wrapper::after {
-      background: #eeeeeecc;
+      background: #ced4dacc;
     }h1, h2, h3, h4, h5, h6 {
       color: #555;
     }
@@ -2133,29 +2133,29 @@ p > code {
       background: #f9f9f9cc;
       color: rgba(0, 0, 0, 0.98);
     }.markdownIt-TOC a {
-      color: #343a40;
-      border-bottom-color: #343a40;
+      color: #868e96;
+      border-bottom-color: #868e96;
     }.markdownIt-TOC a:hover {
-      color: #dee2e6;
-      border-bottom-color: #dee2e6;
+      color: #495057;
+      border-bottom-color: #495057;
     }.active-current > a {
-      color: #fc6423 !important;
-      border-bottom-color: #fc6423 !important;
+      color: #1864ab !important;
+      border-bottom-color: #1864ab !important;
     }
     .sidebar-title-active {
-      color: #fc6423 !important;
-      border-bottom-color: #fc6423 !important;
+      color: #1864ab;
+      border-bottom-color: #1864ab;
     }
     .sidebar-title-item:hover {
-      color: #fc6423 !important;
+      color: #1864ab !important;
     }
     .active-show > a {
-      color: #fc6423;
-      border-bottom-color: #fc6423;
+      color: #1864ab;
+      border-bottom-color: #1864ab;
     }
     .active-hidden > a {
-      color: #fc6423;
-      border-bottom-color: #fc6423;
+      color: #1864ab;
+      border-bottom-color: #1864ab;
     }.bg-color {
       background-color: #ffffffcc;
     }
@@ -2166,10 +2166,10 @@ p > code {
       border-radius: 10px;
     }
     .site-meta {
-      background: #000 !important;
+      background: #1864ab !important;
     }
     .head-top-line {
-      background: #000;
+      background: #1864ab;
     }
     .brand {
   
@@ -2179,7 +2179,9 @@ p > code {
     }
     .mist .site-title i {
       background: #FFFFFFcc;
-    }.box-shadow-wrapper {
+    }.bg-img img {
+        filter: blur(4px)
+      }.box-shadow-wrapper {
       padding: 10px;
     }.box-shadow-wrapper {
       box-shadow: none !important;
