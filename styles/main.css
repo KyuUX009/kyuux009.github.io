@@ -2183,6 +2183,8 @@ p > code {
     }
     .mist .site-title i {
       background: #FFFFFFcc;
+    }.box-shadow-wrapper {
+      box-shadow: none !important;
     }body {
       cursor: url('/media/curs/normal.cur'), default;
     }a {
