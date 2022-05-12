@@ -9,7 +9,7 @@
 <meta name="description" content="九瑾谣的个人博客。">
 <meta name="theme-color" content="#343a40">
 <title>关于 |  瑾声 </title>
-<link rel="shortcut icon" href="/favicon.ico?v=1652345004368">
+<link rel="shortcut icon" href="/favicon.ico?v=1652347654803">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -133,7 +133,7 @@
             <li class="nav-item ">
               
               
-                <a href="/sstalk" target="_self">
+                <a href="/artitalk" target="_self">
                   说说
                 </a>
               
@@ -1133,10 +1133,17 @@
 &lt;p&gt;近几天在Gridea、Hexo、Hugo三个框架里都折腾了一些时间。用前两个框架成功了，但在用Hugo的时候就因为在站点部署的最后一步，我被自己在hexo框架的博客对应的github仓库号给拦下了……因而没得建成。现在想试试gitee，但开启page服务需要审核实名信息，我需要等一天。然后我就又折腾起了Gridea。&lt;/p&gt;
 &lt;p&gt;昨天下午我试用了一个大佬制作的网址导航主题，虽然我此前虽然从未接触过前端相关的知识，但也通过VSCode成功换了导航的部分文字(顺便删了一个随机诗词的插件)，因而对自己稍微有了一点信心。在前些天接触hexo的过程中，我对这些编程文件的作用隐约有了一些感知，加上认识到了Artitalk这个插件之后对“在个人博客发说说”的强烈渴望，我就想试着在Gridea用上Artitalk。&lt;/p&gt;
 &lt;p&gt;你要问我为什么不用hexo的话……因为我用hexo建的博客是针对术力口同好的，而我用Artitalk纯粹是想发个人碎碎念的。以及在hexo弄Artitalk有不少相关的教程，操作还相对容易。我这也算是一个小挑战，还好成功了。还求大佬放过……&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;效果图&#34;&gt;效果图&lt;/h2&gt;
+&lt;p&gt;当然，也可以直接去我的博客的菜单栏看效果哦~&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+	&lt;img src=&#34;https://pic.imgdb.cn/item/627ccb670947543129f5b9e2.png&#34; &gt;
+&lt;/div&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;操作&#34;&gt;操作&lt;/h2&gt;
 &lt;h3 id=&#34;1-验证你的artitalk是否可用&#34;&gt;1. 验证你的Artitalk是否可用&lt;/h3&gt;
 &lt;p&gt;首先先去Artitalk的官方文档设置好LeanCloud相关步骤，这里不再赘述。&lt;br&gt;
-然后在本地新建一个空白html，将以下代码复制进去，&lt;strong&gt;修改好appId和appKey&lt;/strong&gt;，然后保存。不出意外的话你就可以直接通过它在Artitalk发布内容。&lt;/p&gt;
+然后在本地新建一个&lt;u&gt;&lt;strong&gt;空白html&lt;/strong&gt;&lt;/u&gt;（随便哪里都可以），将以下代码复制进去，&lt;strong&gt;修改好appId和appKey&lt;/strong&gt;，然后保存。不出意外的话你就可以直接通过点开它在Artitalk发布内容。&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;html&amp;gt;
   
 &amp;lt;body&amp;gt;
@@ -1159,13 +1166,25 @@
 &lt;blockquote&gt;
 &lt;p&gt;确保可用再进行下一步。&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;div align=&#34;center&#34;&gt;
+	&lt;img src=&#34;https://pic.imgdb.cn/item/627ccde90947543129fd7750.png&#34; &gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;2-在本地的gridea新建页面&#34;&gt;2. 在本地的Gridea新建页面&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;在 &lt;code&gt;Gridea(博客根目录)\themes\next\templates&lt;/code&gt; 目录下新建一个ejs文件，命名为 &lt;code&gt;Artitalk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在 &lt;u&gt;&lt;strong&gt;Gridea(博客根目录)\themes\next\templates&lt;/strong&gt;&lt;/u&gt; 目录下新建一个&lt;strong&gt;ejs&lt;/strong&gt;文件，命名为 &lt;code&gt;Artitalk&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;quot;next&amp;quot;就是你安装的主题文件夹，“Artitalk”可以换成&lt;strong&gt;任意字母＋数字&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;center&gt;
+    &lt;img style=&#34;border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; 
+    src=&#34;https://pic.imgdb.cn/item/627cd03b094754312904d784.png&#34;&gt;
+    &lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;&#34;&gt;注意文件位置，不要点进block&lt;br&gt;以及我这里是已经加好代码的&lt;/div&gt;
+&lt;/center&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;复制以下代码到你刚才建立的ejs文件里，也是要&lt;strong&gt;修改好appId和appKey&lt;/strong&gt;，再进行保存。我这里是用NexT的&lt;strong&gt;Gemini&lt;/strong&gt;模板，整体网页代码参考了tags.ejs文件里的。&lt;s&gt;（目前对我而言，我只知道上面和下面多出来的是与博客相关的页面框架就是了）&lt;/s&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -1208,9 +1227,11 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;在Gridea客户端的“菜单”里新建一个菜单栏，名称随意，Link栏填写&lt;code&gt;/你刚才建的ejs文件名&lt;/code&gt;（要对应的），然后保存。&lt;/li&gt;
-&lt;li&gt;简单刷新一下Gridea客户端（也可以不用），就可以试着预览了。不出意外的话，Artitalk就成功插进了你刚才新建的菜单页面里~&lt;/li&gt;
 &lt;/ol&gt;
-">【教程】在 Gridea-NexT 主题添加Artitalk插件</a>
+&lt;div align=&#34;center&#34;&gt;
+	&lt;img src=&#34;https://pic.imgdb.cn/item/627cd2a909475431290c5ecd.png&#34; &gt;
+&lt;/div&gt;
+4. 简单刷新一下Gridea客户端（也可以不用），就可以试着预览了。不出意外的话，Artitalk就成功插进了你刚才新建的菜单页面里~">【教程】在 Gridea-NexT 主题添加Artitalk插件</a>
       </div>
       
       <div class="item">

@@ -41,9 +41,8 @@
 
 
 
-  <meta name="description" content="九瑾谣的个人博客。">
 </head>
-
+  
 <body>
   <div class="head-top-line"></div>
   <div class="header-box">
@@ -90,7 +89,7 @@
             
               
             
-            <li class="nav-item nav-item-active">
+            <li class="nav-item ">
               
               
                 <a href="/archives" target="_self">
@@ -103,7 +102,7 @@
             
               
             
-            <li class="nav-item ">
+            <li class="nav-item nav-item-active">
               
               
                 <a href="/tags" target="_self">
@@ -245,124 +244,20 @@
   }
   </script>
         <div class="section-box box-shadow-wrapper">
-          <section class="section archives-section bg-color posts-expand">
-            
-
-<div class="bg-color">
-  <div class="archive-timeline-box">
-    <div class="archive-timeline-title">
-      
-        <h2 class="language" data-lan="archives" data-count="6">非常好！目前共计6篇文章，继续努力！</h2>
-      
-    </div>
-    
-      
-      
-        <div class="node-title">
-          <h2 class="tag-year">2022</h2>
-        </div>    
-        
-      
-      <a href="https://kyuux009.github.io/gridea-artitalk-guide/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              05-12
-              <small>【教程】在 Gridea-NexT 主题添加Artitalk插件</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
-    
-      
-      
-      <a href="https://kyuux009.github.io/jie-hong-ge-ren-bo-ke-da-jian-nodi-si-tian/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              05-10
-              <small>接触个人博客搭建の第四天</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
-    
-      
-      
-      <a href="https://kyuux009.github.io/hexo-guide/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              05-10
-              <small>hexo 个人指南</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
-    
-      
-      
-      <a href="https://kyuux009.github.io/100bokarosongs-loved/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              05-08
-              <small>术力口歌曲100选</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
-    
-      
-      
-      <a href="https://kyuux009.github.io/markdown-and-html-yu-fa-zhi-nan/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              05-07
-              <small>Markdown ＆ HTML 语法指南</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
-    
-      
-      
-      <a href="https://kyuux009.github.io/gridea-chu-ti-yan/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              05-07
-              <small>Gridea 初体验</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
-    
+  <!-- 引用 artitalk -->
+  <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+  <!-- 存放说说的容器 -->
+  <div id="artitalk_main"></div>
+  <script>
+  new Artitalk({
+      appId: 'hxJXcipY3wsJNBWBgCAlxHMY-MdYXbMMI', // Your LeanCloud appId
+      appKey: 'UlzGOBmOv1fGcpxb0LzcmR4f' // Your LeanCloud appKey
+  })
+  </script>
   </div>
-  
-<div class="page bg-color">
-  <ul class="pagination-ul">
-    
-    
-      
-        <li class="pagination-li pagination-active">
-            <a href="/archives/page/../">
-              1
-            </a>
-        </li>
-      
-    
-    
-  </ul>
 </div>
 </div>
-
-          </section>
-        </div>
-      </div>
-    </div>
-    <div class="footer-box">
+<div class="footer-box">
   <footer class="footer">
     <center id="runTimeBox">
       已运行:<span id="run_time"></span>
@@ -603,7 +498,7 @@
     parent.insertBefore(aelem, next);
   });
 </script>
-  </div>
+</div>
 </body>
 
   <div class="search-mask" id="search_mask" style="display: none;">
@@ -1332,5 +1227,6 @@ Error: spawn hexo ENOENT
 
 
 
-
+  
 </html>
+

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title> 瑾声 </title>
-    <updated>2022-05-12T08:43:57.721Z</updated>
+    <updated>2022-05-12T09:27:37.354Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -23,10 +23,17 @@
 <p>近几天在Gridea、Hexo、Hugo三个框架里都折腾了一些时间。用前两个框架成功了，但在用Hugo的时候就因为在站点部署的最后一步，我被自己在hexo框架的博客对应的github仓库号给拦下了……因而没得建成。现在想试试gitee，但开启page服务需要审核实名信息，我需要等一天。然后我就又折腾起了Gridea。</p>
 <p>昨天下午我试用了一个大佬制作的网址导航主题，虽然我此前虽然从未接触过前端相关的知识，但也通过VSCode成功换了导航的部分文字(顺便删了一个随机诗词的插件)，因而对自己稍微有了一点信心。在前些天接触hexo的过程中，我对这些编程文件的作用隐约有了一些感知，加上认识到了Artitalk这个插件之后对“在个人博客发说说”的强烈渴望，我就想试着在Gridea用上Artitalk。</p>
 <p>你要问我为什么不用hexo的话……因为我用hexo建的博客是针对术力口同好的，而我用Artitalk纯粹是想发个人碎碎念的。以及在hexo弄Artitalk有不少相关的教程，操作还相对容易。我这也算是一个小挑战，还好成功了。还求大佬放过……</p>
+<hr>
+<h2 id="效果图">效果图</h2>
+<p>当然，也可以直接去我的博客的菜单栏看效果哦~</p>
+<div align="center">
+	<img src="https://pic.imgdb.cn/item/627ccb670947543129f5b9e2.png" >
+</div>
+<hr>
 <h2 id="操作">操作</h2>
 <h3 id="1-验证你的artitalk是否可用">1. 验证你的Artitalk是否可用</h3>
 <p>首先先去Artitalk的官方文档设置好LeanCloud相关步骤，这里不再赘述。<br>
-然后在本地新建一个空白html，将以下代码复制进去，<strong>修改好appId和appKey</strong>，然后保存。不出意外的话你就可以直接通过它在Artitalk发布内容。</p>
+然后在本地新建一个<u><strong>空白html</strong></u>（随便哪里都可以），将以下代码复制进去，<strong>修改好appId和appKey</strong>，然后保存。不出意外的话你就可以直接通过点开它在Artitalk发布内容。</p>
 <pre><code>&lt;html&gt;
   
 &lt;body&gt;
@@ -49,13 +56,25 @@
 <blockquote>
 <p>确保可用再进行下一步。</p>
 </blockquote>
+<div align="center">
+	<img src="https://pic.imgdb.cn/item/627ccde90947543129fd7750.png" >
+</div>
 <h3 id="2-在本地的gridea新建页面">2. 在本地的Gridea新建页面</h3>
 <ol>
-<li>在 <code>Gridea(博客根目录)\themes\next\templates</code> 目录下新建一个ejs文件，命名为 <code>Artitalk</code></li>
+<li>在 <u><strong>Gridea(博客根目录)\themes\next\templates</strong></u> 目录下新建一个<strong>ejs</strong>文件，命名为 <code>Artitalk</code></li>
 </ol>
 <blockquote>
 <p>&quot;next&quot;就是你安装的主题文件夹，“Artitalk”可以换成<strong>任意字母＋数字</strong></p>
 </blockquote>
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://pic.imgdb.cn/item/627cd03b094754312904d784.png">
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">注意文件位置，不要点进block<br>以及我这里是已经加好代码的</div>
+</center>
 <ol start="2">
 <li>复制以下代码到你刚才建立的ejs文件里，也是要<strong>修改好appId和appKey</strong>，再进行保存。我这里是用NexT的<strong>Gemini</strong>模板，整体网页代码参考了tags.ejs文件里的。<s>（目前对我而言，我只知道上面和下面多出来的是与博客相关的页面框架就是了）</s></li>
 </ol>
@@ -98,9 +117,11 @@
 </code></pre>
 <ol start="3">
 <li>在Gridea客户端的“菜单”里新建一个菜单栏，名称随意，Link栏填写<code>/你刚才建的ejs文件名</code>（要对应的），然后保存。</li>
-<li>简单刷新一下Gridea客户端（也可以不用），就可以试着预览了。不出意外的话，Artitalk就成功插进了你刚才新建的菜单页面里~</li>
 </ol>
-]]></content>
+<div align="center">
+	<img src="https://pic.imgdb.cn/item/627cd2a909475431290c5ecd.png" >
+</div>
+4. 简单刷新一下Gridea客户端（也可以不用），就可以试着预览了。不出意外的话，Artitalk就成功插进了你刚才新建的菜单页面里~]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[接触个人博客搭建の第四天]]></title>
