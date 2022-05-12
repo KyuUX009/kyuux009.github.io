@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuux009.github.io</id>
     <title> 瑾声 </title>
-    <updated>2022-05-12T08:24:59.106Z</updated>
+    <updated>2022-05-12T08:28:29.174Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuux009.github.io"/>
     <link rel="self" href="https://kyuux009.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2022,  瑾声 </rights>
     <entry>
         <title type="html"><![CDATA[【教程】在 Gridea-NexT 主题添加Artitalk插件]]></title>
-        <id>https://kyuux009.github.io/gridea-next-zhu-ti-jian-dan-gai-dong-tian-jia-artitalk-cha-jian/</id>
-        <link href="https://kyuux009.github.io/gridea-next-zhu-ti-jian-dan-gai-dong-tian-jia-artitalk-cha-jian/">
+        <id>https://kyuux009.github.io/gridea-artitalk-guide/</id>
+        <link href="https://kyuux009.github.io/gridea-artitalk-guide/">
         </link>
         <updated>2022-05-12T07:04:18.000Z</updated>
         <content type="html"><![CDATA[<h2 id="前言">前言</h2>
