@@ -2048,15 +2048,10 @@ p > code {
     margin-bottom: 10px;
   }
 }
-
-    @media (max-width: 767px) {
-      .bg-img img {
-        display: none;
-      }
-    }.bg-color .bg-color {
+.bg-color .bg-color {
       background: transparent !important;
     }body {
-      background-color: #343a40;
+      background-color: #eee;
     }.header {
         width: 960px;
         margin: 0 auto;
@@ -2132,6 +2127,15 @@ p > code {
     .nav-item:hover {
       background: #f9f9f9cc;
       color: rgba(0, 0, 0, 0.98);
+    }.site-author-image {
+      border-radius: 50%;
+    }
+    .site-author-image:hover {
+      transform: rotate(666turn);
+      transition-delay: 1s;
+      transition-property: all;
+      transition-duration: 59s;
+      transition-timing-function: cubic-bezier(.34,0,.84,1);
     }.markdownIt-TOC a {
       color: #868e96;
       border-bottom-color: #868e96;
@@ -2179,8 +2183,6 @@ p > code {
     }
     .mist .site-title i {
       background: #FFFFFFcc;
-    }.box-shadow-wrapper {
-      padding: 10px;
     }body {
       cursor: url('/media/curs/normal.cur'), default;
     }a {
